@@ -10,6 +10,8 @@
       <change beforePath="$PROJECT_DIR$/../emailDemo/src/main/java/com/javaMail/emailDemo/entity/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../emailDemo/src/main/java/com/javaMail/emailDemo/entity/Mail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../emailDemo/src/main/java/com/javaMail/emailDemo/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../emailDemo/src/main/java/com/javaMail/emailDemo/service/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../emailDemo/src/main/java/com/javaMail/emailDemo/service/impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../emailDemo/src/main/java/com/javaMail/emailDemo/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogoTermo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jogoTermo/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-crawler-java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-crawler-java/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +22,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="34Oz3rLmlWkpX955Vm5du9tI1dg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -57,7 +60,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jogoTermo/src/Main.java</url>
-          <line>14</line>
+          <line>34</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
