@@ -31,6 +31,37 @@ public class Main {
         if (tentativa.equals(palavraSecreta)) {
             System.out.println(ANSI_GREEN + "Parabéns!!! Você acertou a palavra! " + ANSI_RESET);
         }
-        
+
+        boolean[] usada = new boolean[5];
+        for (int i = 0; i < 5; i++) {
+            if (tentativa.charAt(i) == palavraSecreta.charAt(i)) {
+                usada[i] = true;
+            }
+        }
+
+        for (int i = 0; i < 5; i++) {
+            char letra = tentativa.charAt(i);
+            if (letra == palavraSecreta.charAt(i)){
+                System.out.print(ANSI_GREEN + letra + ANSI_RESET);
+            } else {
+                boolean achou = false;
+                for (int j = 0; j < 5; j++) {
+                    if (!usada[j] && letra == palavraSecreta.charAt(j)){
+                        achou = true;
+                        usada[j] = true;
+                        break;
+                    }
+                }
+
+                if (achou) {
+                    System.out.println(ANSI_YELLOW + letra + ANSI_RESET);
+                } else {
+                    System.out.println(ANSI_RED + letra + ANSI_RESET);
+                }
+            }
+        }
+            System.out.println();
     }
+        System.out.println("FIM DE JOGO");
+        scanner.close();
 }
